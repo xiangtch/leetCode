@@ -46,7 +46,7 @@ public class LengthOfLongestSubstring {
         System.out.println(length3);
         Integer length4 = findLengthOfLongestSubstringOptimization(test4);
         System.out.println(length4);
-        System.out.println(findLengthOfLongestSubstringOptimization(test5));
+        System.out.println(findLengthOfLongestSubstring(test5));
     }
 
     /**
@@ -95,6 +95,8 @@ public class LengthOfLongestSubstring {
                 if (isUnqie){
                     // 获取最长子序列的长度
                     max = Math.max(max, j - i);
+                }else {
+                    break;
                 }
             }
         }
