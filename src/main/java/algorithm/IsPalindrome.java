@@ -1,6 +1,8 @@
 package algorithm;
 
 /**
+ *   判断回文数
+ *
  * @author xiangtch
  * @date 2019/8/19 21:31
  * <p> Email: xiangtiancheng@deepexi.com </p>
