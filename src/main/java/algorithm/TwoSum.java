@@ -8,9 +8,8 @@ import java.util.Map;
 /**
  *   两数之和
  *
- * @author xiangtch
+ * @author xiangtch - xiangtch6@gmail.com
  * @date 2019/7/17 0:42
- * @email xiangtch6@gmail.com
  */
 public class TwoSum {
     /*
