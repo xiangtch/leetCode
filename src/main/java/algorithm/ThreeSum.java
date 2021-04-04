@@ -34,7 +34,7 @@ public class ThreeSum {
     private static List<List<Integer>> findThreeSum(int[] nums) {
         int minLength = 3;
         if (nums.length < minLength) {
-            return new ArrayList<List<Integer>>();
+            return new ArrayList<>();
         }
         Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList<>();
