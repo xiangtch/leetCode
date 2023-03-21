@@ -1,9 +1,7 @@
 package algorithm;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
+ *  Z 字形变换
  * @author: xiangtch - imsmallmouse@gmail.com
  * @date: 2022/10/25 9:14
  */

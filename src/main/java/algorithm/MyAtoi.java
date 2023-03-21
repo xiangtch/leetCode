@@ -68,18 +68,18 @@ public class MyAtoi {
             }
             // 判断是否为符号位标记，且标记符号位 -
             if (signFlag && str.charAt(i) == '-'){
-                // 找到标记为后，后面出现的为字符，不为标记符号
+                // 找到标记位后，后面出现的为字符，不为标记符号
                 signFlag = false;
                 sign = false;
                 continue;
             }
             // 判断是否为符号位标记，且标记符号位 -
             if (signFlag && str.charAt(i) == '+'){
-                // 找到标记为后，后面出现的为字符，不为标记符号
+                // 找到标记位后，后面出现的为字符，不为标记符号
                 signFlag = false;
                 continue;
             }
-            // 没找到标记为，就不用查找标记位，默认为正数
+            // 没找到标记位，就不用查找标记位，默认为正数
             signFlag = false;
 
             // 判断符号位后面是否为数字
